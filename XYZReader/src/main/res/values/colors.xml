@@ -22,4 +22,17 @@
     <color name="theme_primary_dark">#04561A</color>
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
+
+<!-- REVIEWER: This Material Design Color Palette was created at https://www.materialpalette.com/ -->
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#5D4037</color>
+    <color name="colorPrimaryLight">#D7CCC8</color>
+    <color name="colorAccent">#9E9E9E</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorLightText">#EEEEEE</color>
+
+
+    <color name="colorListBackground">#A1887F</color>
+    <color name="textColorBlack">#212121</color>
+    <color name="textColorBlack2">#6000</color>
 </resources>
