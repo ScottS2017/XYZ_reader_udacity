@@ -73,7 +73,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     public void setAppBarHeight() {
         AppBarLayout appBarLayout = findViewById(R.id.appbar);
-        appBarLayout.setLayoutParams(new CoordinatorLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, getStatusBarHeight() + dpToPx(48 + 56)));
+        appBarLayout.setLayoutParams(new CoordinatorLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, getStatusBarHeight() + dpToPx(88)));
     }
 
     public int getStatusBarHeight() {
