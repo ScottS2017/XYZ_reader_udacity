@@ -23,6 +23,8 @@
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
 
+    <color name="navColor">#7F232323</color>
+
 <!-- REVIEWER: This Material Design Color Palette was created at https://www.materialpalette.com/ -->
     <color name="colorPrimary">#795548</color>
     <color name="colorPrimaryDark">#5D4037</color>

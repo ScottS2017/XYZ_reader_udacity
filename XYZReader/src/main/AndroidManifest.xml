@@ -20,17 +20,24 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER"
-                    android:theme="@style/AppTheme.NoActionAndStatusBar"/>
+                    />
             </intent-filter>
         </activity>
 
         <activity
             android:name=".ui.ArticleDetailActivity"
-            android:parentActivityName=".ui.ArticleListActivity">
+            android:parentActivityName=".ui.ArticleListActivity"
+            android:theme="@style/Theme.Bacon.Detail"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
+                <!-- content://com.example.xyzreader/ -->
+                <data
+                    android:scheme="content"
+                    android:host="com.example.xyzreader"
+                    android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items"
+                    />
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
