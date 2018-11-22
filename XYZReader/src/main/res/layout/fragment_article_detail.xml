@@ -78,7 +78,9 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-
+    <!-- REVIEWER *************************************
+    fab_elevation elevation changed to 6 in dimensions.xml in order to comply with
+    the Material Design Spec of 6 for a FAB at resting state -->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
